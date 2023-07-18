@@ -19,17 +19,17 @@
   },
   "dependencies": {
     "nan": "^2.13.2",
-    "node-pre-gyp": "^0.13.0"
+    "@mapbox/node-pre-gyp": "^1.0.11"
   },
   "gypfile": true,
   "devDependencies": {
     "aws-sdk": "^2.449.0",
-    "mocha": "^6.2.3",
+    "mocha": "^10.2.0",
     "semver": "^5.7.0",
     "should": "^13.2.3"
   },
   "bundledDependencies": [
-    "node-pre-gyp"
+    "@mapbox/node-pre-gyp"
   ],
   "binary": {
     "module_name": "gcstats",
